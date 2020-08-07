@@ -1,2 +1,4 @@
 language = "python3"
-run = "python pythonbasics/ryanpybasics.py"
+#run = "python pythonbasics/ryanpybasics.py"
+#run = "python pythonbasics/datastructurelearnings.py"
+run = "python pythonbasics/testhack.py"
