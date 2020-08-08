@@ -20,7 +20,7 @@ def diffdiagonal(arr):
     bslash=bslash+1
   print("sum of fslash is: ", fslashsum)
   print("sum of bslash is: ", bslashsum)
-  diffval=abs(abs(fslashsum)-abs(bslashsum))
+  diffval=abs(bslashsum-fslashsum)
   print("difference is: ", diffval)
   return diffval
 
@@ -42,7 +42,7 @@ longarr=[
 #arlen=len(alice)
 #print('alice array lenghth is ', arlen)
 
-result=diffdiagonal(arr)
+result=diffdiagonal(longarr)
 
 
   #print ("alice ", alice[k])
