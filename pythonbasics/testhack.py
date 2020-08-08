@@ -8,13 +8,15 @@ def diffdiagonal(arr):
 
   fslashsum=0
   bslashsum=0
-  for rar in arr:
+  for frar in arr:
   #print (rar)
-    print ("fslash line value :",rar[fslash])
-    fslashsum=fslashsum+rar[fslash]
+    print ("fslash line value :",frar[fslash])
+    fslashsum=fslashsum+frar[fslash]
     fslash=fslash-1
-    print ("bslash line value :",rar[bslash])
-    bslashsum=bslashsum+rar[bslash]
+  
+  for brar in arr:
+    print ("bslash line value :",brar[bslash])
+    bslashsum=bslashsum+brar[bslash]
     bslash=bslash+1
   print("sum of fslash is: ", fslashsum)
   print("sum of bslash is: ", bslashsum)
@@ -40,7 +42,7 @@ longarr=[
 #arlen=len(alice)
 #print('alice array lenghth is ', arlen)
 
-result=diffdiagonal(longarr)
+result=diffdiagonal(arr)
 
 
   #print ("alice ", alice[k])
